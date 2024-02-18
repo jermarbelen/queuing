@@ -1,0 +1,199 @@
+body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+}
+
+#left-side{
+    width: 70%;
+    float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#right{
+    width: 30%;
+	height: 585px;
+    float: right;
+	background-color: white;
+}
+
+#column1{
+    width: 100%;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	background-color: #27ae60;
+	color: white;
+	font-size: 1.3em;
+}
+
+#column2{
+    width: 100%;
+	text-align: center;
+	color: white;    
+	background-color: #3498db;
+}
+
+#sample{
+    width: 100%;
+	height: 110px;
+	line-height: 110px;
+	text-align: center;
+	color: white;    
+	background-color: #3498db;
+	font-size: 3.0em;
+}
+
+#sampol{
+    width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: white;    
+	background-color: #0e70b1;
+	font-size: 1.3em;
+}
+
+#column3{
+    width: 50%;
+	float: left;
+	text-align: center;
+	color: white;    
+	background-color: #FFF;
+}
+
+.text1{
+    width: 99%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: white;    
+	background-color: #3498db;
+	font-size: 2.0em;
+}
+
+.text2{
+    width: 99%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: white;    
+	background-color: #0e70b1;
+	font-size: 0.5em;
+}
+
+#next{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #27ae60;
+	color: white;
+	font-size: 1.3em;
+}
+
+#footer{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	bottom: 0;
+	text-align: center;  
+	background-color: #FFF;
+	color: white;
+}
+
+#wan{
+	width: 14.9%;
+	height: 70px;
+	line-height: 70px;
+	float: left;
+	text-align: center;  
+	background-color: #3498db;
+	color: white;
+}
+
+.tu{
+	width: 84.9%;
+	height: 50px;
+	line-height: 50px;
+	float: right;
+	text-align: center;  
+	background-color: #27ae60;
+	color: white;
+}
+
+#tri{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	float: left;
+	text-align: center;  
+	background-color: #3498db;
+	color: white;
+}
+
+#por{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	float: right;
+	text-align: center;  
+	background-color: #3498db;
+	color: white;
+}
+
+.tu {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+.tu h3 {
+ color: white;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
